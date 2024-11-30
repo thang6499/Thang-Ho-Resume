@@ -1,3 +1,4 @@
+/*
 import Image from "next/image";
 
 const BlogHero = ({ blog }) => {
@@ -33,3 +34,4 @@ const BlogHero = ({ blog }) => {
 };
 
 export default BlogHero;
+*/

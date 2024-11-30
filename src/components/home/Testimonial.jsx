@@ -36,6 +36,7 @@ const Testimonial = () => {
       id="testimonial"
       className="py-5 xl:py-3.5 max-w-content xl:max-2xl:max-w-50rem max-xl:mx-auto xl:ml-auto"
     >
+{/*
       <div className="px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl service-section lg:p-10 2xl:p-13">
         <SectionHeading {...testimonials?.testimonialsHeading} />
 
@@ -118,6 +119,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
+*/}
     </div>
   );
 };

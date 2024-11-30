@@ -1,3 +1,4 @@
+/*
 "use client";
 
 import { comments } from "@/src/staticData/blog/blog";
@@ -170,3 +171,4 @@ const BlogComment = () => {
 };
 
 export default BlogComment;
+*/

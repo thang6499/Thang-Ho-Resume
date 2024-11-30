@@ -82,36 +82,27 @@ const Skills = () => {
                     <div className="space-y-5 text-center swiper-slide">
                       <img src={service?.image} alt={service?.name} />
                       <div className="!w-32 !h-32 md:!w-40 md:!h-40 mx-auto">
-                        <CountUp
-                          start={0}
-                          end={service?.percent}
-                          duration={5}
-                          suffix="%"
+                        <VisibilitySensor
+                            onChange={(visible) => {
+                              if (visible && !counterStarted) {
+                                setCounterStarted(true);
+                                setChange(true);
+                              }
+                            }}
                         >
-                          {({ countUpRef, start }) => (
-                            <VisibilitySensor
-                              onChange={(visible) => {
-                                if (visible && !counterStarted) {
-                                  setCounterStarted(true);
-                                  start();
-                                  setChange(true);
-                                }
-                              }}
-                            >
-                              {({ isVisible }) => {
-                                const percentage =
-                                  isVisible || change ? service?.percent : 0;
+                          {({isVisible}) => {
+                            const percentage = isVisible || change ? service?.percent : 0;
 
-                                return (
-                                  <CircularProgressbarWithChildren
+                            return (
+                                <CircularProgressbarWithChildren
                                     strokeWidth={1}
                                     styles={{
                                       root: {},
                                       path: {
                                         stroke: "#02B189",
                                         transition: change
-                                          ? "stroke-dashoffset 0.5s ease 0s"
-                                          : "none",
+                                            ? "stroke-dashoffset 0.5s ease 0s"
+                                            : "none",
                                         transform: "rotate(0.25turn)",
                                         transformOrigin: "center center",
                                       },
@@ -127,21 +118,18 @@ const Skills = () => {
                                       },
                                     }}
                                     value={percentage}
-                                  >
-                                    <div className="text-center">
-                                      <div
+                                >
+                                  <div className="text-center">
+                                    <div
                                         className="absolute inset-0 text-2xl font-semibold text-black dark:text-white label flex-center"
-                                        ref={countUpRef}
-                                      >
-                                        <span></span>
-                                      </div>
+                                    >
+                                      <span>{percentage}%</span>
                                     </div>
-                                  </CircularProgressbarWithChildren>
-                                );
-                              }}
-                            </VisibilitySensor>
-                          )}
-                        </CountUp>
+                                  </div>
+                                </CircularProgressbarWithChildren>
+                            );
+                          }}
+                        </VisibilitySensor>
                       </div>
 
                       <div className="text-black dark:text-white name">
