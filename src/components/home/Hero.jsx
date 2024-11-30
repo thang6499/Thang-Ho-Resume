@@ -59,6 +59,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="mb-2 mt-14 xl:mb-0 xl:mt-20">
+{/*
           <div className="items-center grid-cols-12 overflow-hidden md:grid">
             <div className="hidden col-span-2 md:inline-block">
               <h6 className="font-medium text-black dark:text-white/80 text-sm md:max-w-[8rem] border-l border-theme pl-4">
@@ -77,6 +78,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+*/}
         </div>
       </div>
     </div>

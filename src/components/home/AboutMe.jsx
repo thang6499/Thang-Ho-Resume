@@ -30,19 +30,18 @@ const AboutMe = () => {
             <span className="text-black dark:text-white">
               {userDetailsSidebar?.userName}
             </span>{" "}
-            and I began using WordPress when first began. spent most of my
-            waking hours for the last ten years designing, programming and
-            operating{" "}
-            <span className="text-black dark:text-white"> WordPress</span> sites
-            go beyond with exclusive designer.
+            I am a Middle Business Analyst with 3 years of experience in ERP systems, focused on delivering technology-driven solutions to optimize business processes.
+            I value continuous learning and bring a positive, professional approach to collaborative work environments.
+            {/*<span className="text-black dark:text-white"> WordPress</span> sites
+            go beyond with exclusive designer.*/}
           </p>
         </div>
         <div className="mt-6 section-content">
-          <div className="inline-flex flex-wrap items-center gap-2 mb-5 text-sm md:gap-4">
+  {/*        <div className="inline-flex flex-wrap items-center gap-2 mb-5 text-sm md:gap-4">
             {technologies?.map((tech) => (
               <AboutTechnologies key={tech?.id} {...tech} />
             ))}
-          </div>
+          </div>*/}
 
           <ul className="grid mt-4 mb-10 text-sm lg:mt-6 md:grid-cols-2 gap-x-8 gap-y-3">
             {userDetails?.map((singlInfo, i) => (
@@ -50,11 +49,13 @@ const AboutMe = () => {
             ))}
           </ul>
 
+{/*
           <ul className="grid grid-cols-2 gap-6 counters md:grid-cols-4 xl:gap-8">
             {projectExperiences?.map((exp, i) => (
               <ProjectExperience key={i} {...exp} />
             ))}
           </ul>
+*/}
         </div>
       </div>
     </div>

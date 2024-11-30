@@ -40,7 +40,7 @@ module.exports = {
         platinum: "#e8e8e8",
         colorGray: "#999999",
         colorSilver: "#707070",
-        theme: "#00bc91",
+        theme: "#BC9F8B",
         themeHover: "#069c7a",
         power__black: "#18191a",
         nightBlack: "#212223",

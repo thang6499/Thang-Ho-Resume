@@ -16,12 +16,14 @@ import { GrTasks } from "react-icons/gr";
 import { BiCheckDouble, BiCommentCheck } from "react-icons/bi";
 
 import figmaImage from "@/public/assets/img/skill/figma.svg";
-import webflowImage from "@/public/assets/img/skill/webflow.svg";
-import tailwindImage from "@/public/assets/img/skill/tailwind.svg";
-import htmlImage from "@/public/assets/img/skill/html.svg";
-import cssImage from "@/public/assets/img/skill/css.svg";
-import jsImage from "@/public/assets/img/skill/js.svg";
-import jqueryImage from "@/public/assets/img/skill/jquery.svg";
+import criticalThinkingImage from "@/public/assets/img/skill/criticalthinking.svg";
+import dataAnalysisImage from "@/public/assets/img/skill/dataanalysis.svg";
+import languageImage from "@/public/assets/img/skill/language.svg";
+import logicalThinkingImage from "@/public/assets/img/skill/logicalthinking.svg";
+import problemSolvingImage from "@/public/assets/img/skill/problemsolving.svg";
+import requirementElicitationImage from "@/public/assets/img/skill/requirementelicitation.svg";
+import projectTrackingImage from "@/public/assets/img/skill/projecttracking.svg";
+import srsdocImage from "@/public/assets/img/skill/srsdoc.svg";
 
 import partner1Image from "@/public/assets/img/partners/logo1.svg";
 import partner2Image from "@/public/assets/img/partners/logo2.svg";
@@ -63,16 +65,16 @@ export const introduce = {
     title: "INTRODUCE",
   },
   heading: {
-    heading1: "I Craft The",
-    heading2: "Digital Landscape",
+    heading1: "Streamlining Processes",
+    heading2: "with ERP Systems",
   },
   desc: (
     <p>
       I am a{" "}
       <span className="font-medium text-black dark:text-white/90">
-        Frontend Developer
+        Business Analyst
       </span>{" "}
-      at heart and, i create features that are best suited for the job at hand.
+      I am a Business Analyst enhancing operational efficiency with tailored ERP solutions.
     </p>
   ),
   jobs: [
@@ -161,68 +163,72 @@ export const technologies = [
 export const userDetails = [
   {
     field: "Phone",
-    value: "+(2) 870 174 302",
+    value: "+(84) 775 550 467",
   },
   {
     field: "Skype",
-    value: "brown@com",
+    value: "live:.cid.a02844ab9ae6ef48",
   },
   {
     field: "Language",
-    value: "English, Dutch, Spanish",
+    value: "English, Vietnamese",
   },
   {
     field: "Email",
-    value: "info@example.com",
+    value: "hthangdng@gmail.com",
   },
   {
     field: "GitHub",
-    value: "github.com/user",
+    value: "github.com/HoThang6499",
+  },
+  {
+    field: "LinkedIn",
+    value: "linkedin.com/in/thang99",
   },
 ];
 
 export const userDetailsSidebar = {
   userImage: userImage,
   userImageLight: userImageLight,
-  userName: "Brown Reddick",
-  designations: ["Web Developer", "Photographer", "Web Designer"],
+  userName: "Ho Thang",
+  designations: ["Business Analyst"],
   basicInfo: [
     {
       id: 1,
       field: "Residence",
-      value: "Canada",
+      value: "Viet Nam",
     },
     {
       id: 2,
       field: "City",
-      value: "Toronto",
+      value: "HCM City",
     },
     {
       id: 3,
-      field: "Age",
-      value: "26",
+      field: "Experience",
+      value: "3+ years",
     },
   ],
   skillsInfo: [
     {
       id: 1,
-      name: "HTML",
+      name: "Hard",
       value: 90,
     },
     {
       id: 2,
-      name: "CSS",
-      value: 80,
+      name: "Soft",
+      value: 85,
     },
     {
       id: 3,
-      name: "JS",
+      name: "Mindset",
       value: 90,
     },
     {
       id: 4,
-      name: "PHP",
-      value: 90,
+      name: "Eng",
+      value: 85,
     },
   ],
 };
@@ -230,16 +236,16 @@ export const userDetailsSidebar = {
 export const projectExperiences = [
   {
     title: "Years Of Experience",
-    count: 185,
+    count: 3,
     postFix: true,
   },
   {
     title: "Handled Projects",
-    count: 12,
+    count: 4,
     postFix: true,
   },
   {
-    title: "Open Source Libraries",
+    title: "Certificates",
     count: 5,
     postFix: true,
   },
@@ -302,39 +308,49 @@ export const skills = {
   },
   skillsData: [
     {
+      image: requirementElicitationImage?.src,
+      percent: 90,
+      name: "Requirement Elicitation",
+    },
+    {
+      image: srsdocImage?.src,
+      percent: 90,
+      name: "Documentation (SRS, BRD)",
+    },
+    {
+      image: projectTrackingImage?.src,
+      percent: 80,
+      name: "Project Tracking (Scrum)",
+    },
+    {
+      image: dataAnalysisImage?.src,
+      percent: 80,
+      name: "Data Analysis (SQL, Excel)",
+    },
+    {
       image: figmaImage?.src,
-      percent: 90,
-      name: "Figma",
-    },
-    {
-      image: webflowImage?.src,
       percent: 85,
-      name: "Webflow",
+      name: "Tools (Jira, Figma, Drawio)",
     },
     {
-      image: tailwindImage?.src,
+      image: logicalThinkingImage?.src,
       percent: 90,
-      name: "Tailwind",
+      name: "Logical & System Thinking",
     },
     {
-      image: htmlImage?.src,
-      percent: 95,
-      name: "HTML5",
+      image: criticalThinkingImage?.src,
+      percent: 85,
+      name: "Critical Thinking",
     },
     {
-      image: cssImage?.src,
-      percent: 95,
-      name: "CSS3",
+      image: problemSolvingImage?.src,
+      percent: 90,
+      name: "Problem Solving",
     },
     {
-      image: jsImage?.src,
+      image: languageImage?.src,
       percent: 75,
-      name: "JavaScript",
-    },
-    {
-      image: jqueryImage?.src,
-      percent: 70,
-      name: "jQuery",
+      name: "Language (English)",
     },
   ],
 };
@@ -345,31 +361,31 @@ export const resume = {
     title: "RESUME",
     heading: "Work",
     coloredHeading: "Experience",
-    description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+    /*description:
+      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",*/
   },
   resumeData: [
     {
-      platform: "Envato Market",
-      duration: "Mar, 2022 - Current",
-      position: "Lead UX Designer",
+      platform: "Motives Viet Nam",
+      duration: "June, 2023 - Current",
+      position: "Business Analyst",
+      description:
+        "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.",
+    },
+    {
+      platform: "Retex",
+      duration: "March,2022 - May,2023",
+      position: "Business Analyst",
       description:
         "Owing to advancements in product other designer technologies aute voluptate.",
     },
-    {
-      platform: "Google",
-      duration: "2018 - 2022",
-      position: "UX Designer",
-      description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
-    },
-    {
+    /*{
       platform: "Apple",
       duration: "2014-2018",
       position: "Human Interface Designer",
       description:
         "Owing to advancements in product other designer technologies aute voluptate.",
-    },
+    },*/
   ],
 };
 
@@ -379,11 +395,11 @@ export const educations = {
     title: "",
     heading: "My",
     coloredHeading: "Education",
-    description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+/*    description:
+      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",*/
   },
   educationsData: [
-    {
+    /*{
       institution: "Oxford University",
       duration: "2016-2018",
       degree: "Diploma in Computer",
@@ -396,13 +412,12 @@ export const educations = {
       degree: "BSc in Engineering",
       description:
         "Owing to advancements in product other designer technologies aute voluptate.",
-    },
+    },*/
     {
-      institution: "Oxford University",
-      duration: "2014-2018",
-      degree: "Php Development",
-      description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+      institution: "The University of Danang - University of Economics",
+      duration: "2017-2021",
+      degree: "Business Administration",
+      description: "Bachelor degree.",
     },
   ],
 };
@@ -422,12 +437,12 @@ export const portfolio = {
       image: {
         thumbnail: portfolioImage1Thumb?.src,
         image: portfolioImage1?.src,
-        thumbnailText1: "Design",
-        thumbnailText2: "Specialization",
+        thumbnailText1: "MM",
+        thumbnailText2: "ERP System",
       },
-      type: "Branding",
-      title: "Three wine glasses filled with candies",
-      slug: "three-wine-glasses-filled-with-candies",
+      type: "ERP System",
+      title: "MM ERP System",
+      slug: "mm-erp-system",
       projectHeading: {
         icon: <GrTasks className="text-theme" />,
         title: "Project Details",
@@ -435,25 +450,29 @@ export const portfolio = {
       projectInfo: [
         {
           field: "CLIENT",
-          value: "Envato Theme",
+          value: "Minh Minh Fashion",
         },
         {
           field: "SERVICES:",
-          value: "Tips & Tricks, Design",
+          value: "Fashion design, manufacturing",
         },
         {
           field: "DURATION",
-          value: "108 hrs",
+          value: "1.5 years",
         },
       ],
       projectDescription: {
         descriptionTitle: "Project Description",
         description:
-          "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community. This analysis initiates a three-part series that delves into the influence of AI on intellectual property rights.",
+          "A comprehensive ERP system with five core modules (Sample Development, Order Management, Production Management, Warehouse Management, and Comprehensive Reporting) that reduced 50% of manual workload and improved efficiency by 20%.",
         descriptionLists: [
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-          "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+          "Sample Development: Design production, material calculation, production tracking, and cost estimation.",
+          "Order Management: Full order lifecycle tracking from Order Placement → Delivery.",
+          "Production Management: Planning, material balancing, cost calculation, and delivery management.",
+          "Warehouse Management: Inventory tracking and integration with other modules.",
+          "Comprehensive Reporting: End-to-end data insights.",
+          "Team: Collaborated in a cross-functional team of 8 (1 business analyst, 7 developers, 1 tester, and 1 product owner).",
+          "Tools: Back-end (PHP), front-end (React), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
         ],
         projectImage: [projectInner1Image?.src, projectInner2Image?.src],
       },
@@ -584,11 +603,12 @@ export const portfolio = {
   ],
 };
 
+/*
 export const blogs = {
   blogsHeading: {
     icon: <FaBlog className="text-theme" />,
     title: "BLOG",
-    heading: "Latest",
+    heading: "`Latest",
     coloredHeading: "Insights",
     description:
       "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
@@ -806,7 +826,9 @@ export const blogs = {
     },
   ],
 };
+*/
 
+/*
 export const testimonials = {
   testimonialsHeading: {
     icon: <BiCommentCheck className="text-theme" />,
@@ -858,6 +880,7 @@ export const testimonials = {
     },
   ],
 };
+*/
 
 export const contactInfo = {
   contactInfoHeading: {
@@ -865,26 +888,26 @@ export const contactInfo = {
     title: "CONTACT",
     heading: "Contact",
     coloredHeading: "Me.",
-    description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+    /*description:
+      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",*/
   },
   contactInfoData: [
     {
       id: 1,
       field: "Location",
-      data: "Melbourne Street. No 20",
+      data: "Ho Chi Minh City",
       Icon: <LocationIcon />,
     },
     {
       id: 2,
       field: "E-mail",
-      data: "smith@gmail.com",
+      data: "hthangdng@gmail.com",
       Icon: <EmailIcon />,
     },
     {
       id: 3,
       field: "Phone",
-      data: "+976 34 99 99",
+      data: "(+84) 775 550 467",
       Icon: <PhoneIcon />,
     },
   ],

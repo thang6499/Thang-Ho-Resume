@@ -1,3 +1,4 @@
+/*
 import { blogSocials, tags } from "@/src/staticData/blog/blog";
 import Image from "next/image";
 
@@ -68,3 +69,4 @@ const BlogDescription = ({ blog }) => {
 };
 
 export default BlogDescription;
+*/

@@ -30,6 +30,17 @@ const ProjectDescription = ({ project }) => {
             />
           </div>
         ))}
+          {project?.projectDescription?.projectImage?.map((item, i) => (
+              <div className="overflow-hidden rounded-xl xl:rounded-2xl" key={i}>
+                  <Image
+                      width={300}
+                      height={300}
+                      src={item}
+                      className="w-full"
+                      alt="Project Inner Colum Image"
+                  />
+              </div>
+          ))}
       </div>
 
       <Technologies />
