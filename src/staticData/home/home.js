@@ -24,6 +24,12 @@ import problemSolvingImage from "@/public/assets/img/skill/problemsolving.svg";
 import requirementElicitationImage from "@/public/assets/img/skill/requirementelicitation.svg";
 import projectTrackingImage from "@/public/assets/img/skill/projecttracking.svg";
 import srsdocImage from "@/public/assets/img/skill/srsdoc.svg";
+import dotnetcoreImage from "@/public/assets/img/skill/dotnetcore.svg";
+import sqlserverImage from "@/public/assets/img/skill/sqlserver.svg";
+import jiraImage from "@/public/assets/img/skill/jira.svg";
+import railsImage from "@/public/assets/img/skill/rails.svg";
+import clickupImage from "@/public/assets/img/skill/clickup.svg";
+import mongodbImage from "@/public/assets/img/skill/mongodb.svg";
 
 import partner1Image from "@/public/assets/img/partners/logo1.svg";
 import partner2Image from "@/public/assets/img/partners/logo2.svg";
@@ -47,6 +53,12 @@ import portfolioImage4 from "@/public/assets/img/portfolio/portfolio-img4.png";
 
 import projectInner1Image from "@/public/assets/img/blog/article-inner1.png";
 import projectInner2Image from "@/public/assets/img/blog/article-inner2.png";
+import projectInner3Image from "@/public/assets/img/blog/article-inner3.png";
+import projectInner4Image from "@/public/assets/img/blog/article-inner4.png";
+import projectInner5Image from "@/public/assets/img/blog/article-inner5.png";
+import projectInner6Image from "@/public/assets/img/blog/article-inner6.png";
+import projectInner7Image from "@/public/assets/img/blog/article-inner7.png";
+import projectInner8Image from "@/public/assets/img/blog/article-inner8.png";
 
 import blog1Thumbnail from "@/public/assets/img/blog/article1.png";
 import blog1Image from "@/public/assets/img/blog/article1.png";
@@ -74,8 +86,7 @@ export const introduce = {
       <span className="font-medium text-black dark:text-white/90">
         Business Analyst
       </span>{" "}
-      I am a Business Analyst enhancing operational efficiency with tailored ERP solutions.
-    </p>
+      specializing in ERP systems, delivering effective solutions that align technology with business needs. I use my understanding of operational challenges to support growth and improve efficiency.    </p>
   ),
   jobs: [
     {
@@ -209,7 +220,7 @@ export const userDetailsSidebar = {
       value: "3+ years",
     },
   ],
-  skillsInfo: [
+  /*skillsInfo: [
     {
       id: 1,
       name: "Hard",
@@ -230,7 +241,7 @@ export const userDetailsSidebar = {
       name: "Eng",
       value: 85,
     },
-  ],
+  ],*/
 };
 
 export const projectExperiences = [
@@ -349,7 +360,7 @@ export const skills = {
     },
     {
       image: languageImage?.src,
-      percent: 75,
+      percent: 80,
       name: "Language (English)",
     },
   ],
@@ -370,14 +381,14 @@ export const resume = {
       duration: "June, 2023 - Current",
       position: "Business Analyst",
       description:
-        "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.",
+        "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.\n- Collected and analyzed business requirements, modeled workflows, and mapped business processes into the ERP system. \n- Defined features, created UI designs, prepared SRS documentation, and managed project tasks using Jira.\n- Worked closely with QA to support testing and ensure system functionality met business needs.\n- Delivered training to over 20 end-users. Reducing processing time by 20%, resulting in improved operational efficiency.",
     },
     {
       platform: "Retex",
       duration: "March,2022 - May,2023",
       position: "Business Analyst",
       description:
-        "Owing to advancements in product other designer technologies aute voluptate.",
+        "- Enhanced an ERP system with Quality Management and Market Management modules.\n- Gathered requirements, modeled workflows, and created wireframes for user approval.\n- Documented functional requirements with 100% alignment to stakeholder expectations.\n- Supported testing, presented features, and refined based on user feedback.\n- Conducted UAT sessions with key clients, ensuring seamless implementation of ERP features.",
     },
     /*{
       platform: "Apple",
@@ -429,7 +440,7 @@ export const portfolio = {
     heading: "Featured ",
     coloredHeading: "Projects",
     description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+      "These are two ERP projects I have participated in, each involving key modules such as order management, production, inventory, and quality control. For detailed information on the modules, technologies, teams, and my role in each project, click on the images below.",
   },
   projectsData: [
     {
@@ -471,10 +482,10 @@ export const portfolio = {
           "Production Management: Planning, material balancing, cost calculation, and delivery management.",
           "Warehouse Management: Inventory tracking and integration with other modules.",
           "Comprehensive Reporting: End-to-end data insights.",
-          "Team: Collaborated in a cross-functional team of 8 (1 business analyst, 7 developers, 1 tester, and 1 product owner).",
-          "Tools: Back-end (PHP), front-end (React), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
+          "Team: Collaborated in a cross-functional team of 12 (1 Business Analyst, 7 Developers, 2 testers, 1 Technical Leader, and 1 Product Owner).",
+          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
         ],
-        projectImage: [projectInner1Image?.src, projectInner2Image?.src],
+        projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
       },
     },
     {
@@ -482,12 +493,12 @@ export const portfolio = {
       image: {
         thumbnail: portfolioImage2Thumb?.src,
         image: portfolioImage2?.src,
-        thumbnailText1: "Design",
-        thumbnailText2: "Specialization",
+        thumbnailText1: "MM",
+        thumbnailText2: "ERP System",
       },
-      type: "Branding",
-      title: "Three wine glasses filled with candies",
-      slug: "three-wine-glasses-filled-with-candies",
+      type: "ERP System",
+      title: "MM ERP System",
+      slug: "mm-erp-system",
       projectHeading: {
         icon: <GrTasks className="text-theme" />,
         title: "Project Details",
@@ -495,27 +506,31 @@ export const portfolio = {
       projectInfo: [
         {
           field: "CLIENT",
-          value: "Envato Theme",
+          value: "Minh Minh Fashion",
         },
         {
-          field: "SERVICES",
-          value: "Tips & Tricks, Design",
+          field: "SERVICES:",
+          value: "Fashion design, manufacturing",
         },
         {
           field: "DURATION",
-          value: "108 hrs",
+          value: "1.5 years",
         },
       ],
       projectDescription: {
         descriptionTitle: "Project Description",
         description:
-          "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community. This analysis initiates a three-part series that delves into the influence of AI on intellectual property rights.",
+            "A comprehensive ERP system with five core modules (Sample Development, Order Management, Production Management, Warehouse Management, and Comprehensive Reporting) that reduced 50% of manual workload and improved efficiency by 20%.",
         descriptionLists: [
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-          "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+          "Sample Development: Design production, material calculation, production tracking, and cost estimation.",
+          "Order Management: Full order lifecycle tracking from Order Placement → Delivery.",
+          "Production Management: Planning, material balancing, cost calculation, and delivery management.",
+          "Warehouse Management: Inventory tracking and integration with other modules.",
+          "Comprehensive Reporting: End-to-end data insights.",
+          "Team: Collaborated in a cross-functional team of 12 (1 Business Analyst, 7 Developers, 2 testers, 1 Technical Leader, and 1 Product Owner).",
+          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
         ],
-        projectImage: [projectInner1Image?.src, projectInner2Image?.src],
+        projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
       },
     },
     {
@@ -523,12 +538,12 @@ export const portfolio = {
       image: {
         thumbnail: portfolioImage3Thumb?.src,
         image: portfolioImage3?.src,
-        thumbnailText1: "Design",
-        thumbnailText2: "Specialization",
+        thumbnailText1: "Retex",
+        thumbnailText2: "ERP System",
       },
-      type: "Branding",
-      title: "Three wine glasses filled with candies",
-      slug: "three-wine-glasses-filled-with-candies",
+      type: "ERP System",
+      title: "Retex ERP System",
+      slug: "retex-erp-system",
       projectHeading: {
         icon: <GrTasks className="text-theme" />,
         title: "Project Details",
@@ -536,27 +551,28 @@ export const portfolio = {
       projectInfo: [
         {
           field: "CLIENT",
-          value: "Envato Theme",
+          value: "IFTHIENANPHUCGATEX",
         },
         {
           field: "SERVICES",
-          value: "Tips & Tricks, Design",
+          value: "Textile",
         },
         {
           field: "DURATION",
-          value: "108 hrs",
+          value: "9 months",
         },
       ],
       projectDescription: {
-        descriptionTitle: "Project Description",
+        descriptionTitle: "Quality Control & Sales Management",
         description:
-          "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community. This analysis initiates a three-part series that delves into the influence of AI on intellectual property rights.",
+        "Enhanced an ERP system by developing Quality Management and Market Management modules. Gathered requirements, modeled workflows, created wireframes for user approval, wrote the SRS document, supported testers, and prepared the user manual directly at the factory:",
         descriptionLists: [
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-          "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+          "QC Management: Supports the Quality Inspection Department with mobile and web platforms. The mobile app enables detailed product inspections, while the web app offers tools for managers to view statistics, generate reports, and monitor employee performance.",
+          "Sales Management: Serves the Market Planning Department, allowing efficient order and client management. It includes a dashboard displaying revenue indexes and production progress to aid decision-making.",
+          "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 5 Developers, 2 testers, 2 UX-UI Designers, and 1 Product Owner).",
+          "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB)",
         ],
-        projectImage: [projectInner1Image?.src, projectInner2Image?.src],
+        projectImage: [projectInner5Image?.src, projectInner6Image?.src, projectInner7Image?.src, projectInner8Image?.src,],
       },
     },
     {
@@ -564,12 +580,12 @@ export const portfolio = {
       image: {
         thumbnail: portfolioImage4Thumb?.src,
         image: portfolioImage4?.src,
-        thumbnailText1: "Design",
-        thumbnailText2: "Specialization",
+        thumbnailText1: "Retex",
+        thumbnailText2: "ERP System",
       },
-      type: "Branding",
-      title: "Three wine glasses filled with candies",
-      slug: "three-wine-glasses-filled-with-candies",
+      type: "ERP System",
+      title: "Retex ERP System",
+      slug: "retex-erp-system",
       projectHeading: {
         icon: <GrTasks className="text-theme" />,
         title: "Project Details",
@@ -577,27 +593,28 @@ export const portfolio = {
       projectInfo: [
         {
           field: "CLIENT",
-          value: "Envato Theme",
+          value: "IFTHIENANPHUCGATEX",
         },
         {
           field: "SERVICES",
-          value: "Tips & Tricks, Design",
+          value: "Textile",
         },
         {
           field: "DURATION",
-          value: "108 hrs",
+          value: "9 months",
         },
       ],
       projectDescription: {
-        descriptionTitle: "Project Description",
+        descriptionTitle: "Quality Control & Sales Management",
         description:
-          "Patent authorities globally are grappling with the challenge of redefining their approach to handling inventions generated not by human ingenuity but by AI. It has sparked considerable debate within the intellectual property community. This analysis initiates a three-part series that delves into the influence of AI on intellectual property rights.",
+            "Enhanced an ERP system by developing Quality Management and Market Management modules. Gathered requirements, modeled workflows, created wireframes for user approval, wrote the SRS document, supported testers, and prepared the user manual directly at the factory:",
         descriptionLists: [
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-          "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
+          "QC Management: Supports the Quality Inspection Department with mobile and web platforms. The mobile app enables detailed product inspections, while the web app offers tools for managers to view statistics, generate reports, and monitor employee performance.",
+          "Sales Management: Serves the Market Planning Department, allowing efficient order and client management. It includes a dashboard displaying revenue indexes and production progress to aid decision-making.",
+          "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 5 Developers, 2 testers, 2 UX-UI Designers, and 1 Product Owner).",
+          "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB)",
         ],
-        projectImage: [projectInner1Image?.src, projectInner2Image?.src],
+        projectImage: [projectInner5Image?.src, projectInner6Image?.src, projectInner7Image?.src, projectInner8Image?.src,],
       },
     },
   ],

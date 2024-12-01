@@ -6,7 +6,7 @@ const Footer = () => {
       <p className="">
         Copyright by
         <Link href="#" className="transition-colors">
-          @tuanvpt.com
+          @Ho Thang
         </Link>
       </p>
     </footer>

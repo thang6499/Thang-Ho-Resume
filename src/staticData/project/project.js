@@ -1,27 +1,27 @@
 export const projectTechnologies = [
   {
-    title: "HTML5",
-    image: "/assets/img/skill/html.svg",
-    value: 90,
+    title: ".Net",
+    image: "/assets/img/skill/dotnetcore.svg",
+    value: 100,
   },
   {
-    title: "CSS3",
-    image: "/assets/img/skill/css.svg",
-    value: 80,
+    title: "DevExtreme",
+    image: "/assets/img/skill/devextreme.svg",
+    value: 100,
   },
   {
-    title: "JavaScript",
-    image: "/assets/img/skill/js.svg",
-    value: 60,
+    title: "Jira",
+    image: "/assets/img/skill/jira.svg",
+    value: 100,
   },
   {
-    title: "TailwindCSS",
-    image: "/assets/img/skill/tailwind.svg",
-    value: 90,
+    title: "SQL Server",
+    image: "/assets/img/skill/sqlserver.svg",
+    value: 100,
   },
-  {
-    title: "Figma",
-    image: "/assets/img/skill/figma.svg",
-    value: 90,
-  },
+  // {
+  //   title: "Figma",
+  //   image: "/assets/img/skill/figma.svg",
+  //   value: 90,
+  // },
 ];

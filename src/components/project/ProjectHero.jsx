@@ -1,6 +1,6 @@
 "use client";
 
-import { GrTasks } from "react-icons/gr";
+import {GrTasks} from "react-icons/gr";
 import Image from "next/image";
 
 const ProjectHero = ({ project }) => {
@@ -16,8 +16,12 @@ const ProjectHero = ({ project }) => {
       </h2>
       <div className="mb-4 overflow-hidden mt-7 xl:my-8 thumb rounded-xl xl:rounded-2xl">
         <Image
+/*
           src={project?.image?.image || "/assets/img/portfolio/portfolio-img1"}
-          width={500}
+
+*/
+            src={project?.image?.image}
+            width={500}
           height={500}
           className="w-full h-auto"
           alt="Project Thumbnail Image"

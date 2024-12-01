@@ -1,13 +1,12 @@
 "use client";
 
-import { skills } from "@/src/staticData/home/home";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { useEffect, useRef, useState } from "react";
+import {skills} from "@/src/staticData/home/home";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {useEffect, useRef, useState} from "react";
 import VisibilitySensor from "react-visibility-sensor";
-import { CircularProgressbarWithChildren } from "react-circular-progressbar";
-import CountUp from "react-countup";
+import {CircularProgressbarWithChildren} from "react-circular-progressbar";
 import SectionHeading from "../shared/SectionHeading";
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import {BsArrowLeft, BsArrowRight} from "react-icons/bs";
 
 const Skills = () => {
   const [activeSlide, setActiveSlide] = useState(0);

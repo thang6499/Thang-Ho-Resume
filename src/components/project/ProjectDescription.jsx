@@ -9,7 +9,7 @@ const ProjectDescription = ({ project }) => {
       <h3 className="mb-3 text-lg font-medium text-black dark:text-white xl:text-2xl">
         {project?.projectDescription?.descriptionTitle}
       </h3>
-      <p className="text-regular !leading-[2]">
+      <p className="text-regular !leading-[2] text-justify">
         {project?.projectDescription?.description}
       </p>
       <ul className="text-regular !leading-[2] list-disc ml-6 my-4">
@@ -30,17 +30,6 @@ const ProjectDescription = ({ project }) => {
             />
           </div>
         ))}
-          {project?.projectDescription?.projectImage?.map((item, i) => (
-              <div className="overflow-hidden rounded-xl xl:rounded-2xl" key={i}>
-                  <Image
-                      width={300}
-                      height={300}
-                      src={item}
-                      className="w-full"
-                      alt="Project Inner Colum Image"
-                  />
-              </div>
-          ))}
       </div>
 
       <Technologies />
