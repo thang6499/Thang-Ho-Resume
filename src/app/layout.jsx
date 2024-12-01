@@ -24,8 +24,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Minfo - Personal Resume/vCard Nextjs Template",
-  description: "Minfo - Personal Resume/vCard Nextjs Template",
+  title: "Ho Thang - Portfolio & Resume",
+  description: "Ho Thang - Portfolio & Resume",
 };
 
 export default function RootLayout({ children }) {

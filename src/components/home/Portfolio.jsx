@@ -1,7 +1,6 @@
 import Link from "next/link";
-import Button from "../ui/Button";
 import SectionHeading from "../shared/SectionHeading";
-import { portfolio } from "@/src/staticData/home/home";
+import {portfolio} from "@/src/staticData/home/home";
 import Image from "next/image";
 
 const Portfolio = () => {
@@ -45,7 +44,7 @@ const Portfolio = () => {
               <ul className="absolute z-10 transition-all duration-500 opacity-0 md:top-9 md:right-9 top-6 right-6 group-hover:opacity-100">
                 <li>
                   <Link
-                    href="#"
+                    href={`/project/${portfolio?.slug}`}
                     className="inline-flex items-center gap-2 px-5 py-3 text-sm font-light leading-none text-white transition-colors bg-metalBlack rounded-3xl hover:text-theme"
                   >
                     {portfolio?.type}
@@ -56,9 +55,9 @@ const Portfolio = () => {
           ))}
         </div>
 
-        <div className="mt-10 text-center more-blogs md:mt-13">
-          <Button text="More Projects" />
-        </div>
+        {/*<div className="mt-10 text-center more-blogs md:mt-13">*/}
+        {/*  <Button text="More Projects" />*/}
+        {/*</div>*/}
       </div>
     </div>
   );

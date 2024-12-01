@@ -1,12 +1,6 @@
 "use client";
 
-import { testimonials } from "@/src/staticData/home/home";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { useRef, useState } from "react";
-import SectionHeading from "../shared/SectionHeading";
-import Image from "next/image";
-import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-import { MdOutlineStarPurple500 } from "react-icons/md";
+import {useRef, useState} from "react";
 
 const Testimonial = () => {
   const [activeSlide, setActiveSlide] = useState(0);

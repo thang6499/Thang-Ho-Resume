@@ -1,12 +1,8 @@
-import Button from "../ui/Button";
 import heroImg from "@/public/assets/img/hero-img-1.png";
 import heroImgDark from "@/public/assets/img/hero-img-2.png";
-import { introduce, partners } from "@/src/staticData/home/home";
+import {introduce} from "@/src/staticData/home/home";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
-import { IoMdPaperPlane } from "react-icons/io";
 import IntroduceJob from "./IntroduceJob";
-import TrustedCompany from "./TrustedCompany";
 
 const Hero = () => {
   return (
@@ -32,11 +28,13 @@ const Hero = () => {
                 <IntroduceJob key={i} {...item} />
               ))}
             </ul>
+{/*
             <ul className="mt-7 buttons">
               <li data-scroll-nav="8">
                 <Button text="HIRE ME" prefix={<IoMdPaperPlane size={18} />} />
               </li>
             </ul>
+*/}
           </div>
           <div className="hero-image flex-[0_0_20.3rem] max-md:hidden">
             <Image

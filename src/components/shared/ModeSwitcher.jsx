@@ -21,7 +21,7 @@ const ModeSwitcher = () => {
 
   return (
     <div
-      className={`style-switcher fixed right-0 top-1/2 w-[15rem] -translate-y-1/2 transition z-[9999] ${
+      className={`style-switcher fixed right-0 top-[15%] w-[15rem] -translate-y-1/2 transition z-[9999] ${
         switchActive ? "translate-x-0" : "translate-x-[15rem]"
       }`}
       onClick={() => setSwitchActive(!switchActive)}

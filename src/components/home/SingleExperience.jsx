@@ -1,4 +1,8 @@
 const SingleExperience = ({ platform, duration, position, description }) => {
+    const renderDescription = (text) => {
+        const formattedText = text.replace(/\n/g, "<br />"); // Thay \n bằng <br />
+        return <span dangerouslySetInnerHTML={{ __html: formattedText }} />;
+    };
   return (
     <li className="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
       <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
@@ -11,7 +15,7 @@ const SingleExperience = ({ platform, duration, position, description }) => {
         <h4 className="text-xl xl:text-2xl font-medium xl:font-medium leading-7 text-black dark:text-white mb-2.5">
           {position}
         </h4>
-        <p>{description}</p>
+        <p> {renderDescription(description)}</p>
       </div>
     </li>
   );

@@ -1,13 +1,6 @@
-import {
-  projectExperiences,
-  technologies,
-  userDetails,
-  userDetailsSidebar,
-} from "@/src/staticData/home/home";
-import { CiUser } from "react-icons/ci";
-import AboutTechnologies from "./AboutTechnologies";
+import {userDetails, userDetailsSidebar,} from "@/src/staticData/home/home";
+import {CiUser} from "react-icons/ci";
 import UserDetail from "./UserDetail";
-import ProjectExperience from "./ProjectExperience";
 
 const AboutMe = () => {
   return (
@@ -26,13 +19,11 @@ const AboutMe = () => {
             About <span className="font-semibold text-theme">Me</span>
           </h2>
           <p className="max-w-2xl mt-4 md:mt-6 subtitle">
-            Hi, my name is{" "}
-            <span className="text-black dark:text-white">
-              {userDetailsSidebar?.userName}
-            </span>{" "}
-            I am a Middle Business Analyst with 3 years of experience in ERP systems, focused on delivering technology-driven solutions to optimize business processes.
-            I value continuous learning and bring a positive, professional approach to collaborative work environments.
-            {/*<span className="text-black dark:text-white"> WordPress</span> sites
+            Hi, my name is{" Thang. "}
+            {/*<span className="text-black dark:text-white">*/}
+            {/*  {userDetailsSidebar?.userName}*/}
+            {/*</span>{" "}*/}
+            I am a Middle Business Analyst with 3 years of experience specializing in ERP systems. My expertise lies in analyzing business needs, designing technology-driven solutions, and collaborating with cross-functional teams to optimize processes and improve operational efficiency. I am dedicated to continuous learning and thrive in fostering collaborative, professional environments that deliver measurable business impact.            {/*<span className="text-black dark:text-white"> WordPress</span> sites
             go beyond with exclusive designer.*/}
           </p>
         </div>
