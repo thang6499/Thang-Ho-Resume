@@ -388,7 +388,7 @@ export const resume = {
       duration: "March,2022 - May,2023",
       position: "Business Analyst",
       description:
-        "- Enhanced an ERP system with Quality Management and Market Management modules.\n- Gathered requirements, modeled workflows, and created wireframes for user approval.\n- Documented functional requirements with 100% alignment to stakeholder expectations.\n- Supported testing, presented features, and refined based on user feedback.\n- Conducted UAT sessions with key clients, ensuring seamless implementation of ERP features.",
+        "- Enhanced an ERP system with Quality Management and Market Management modules\n- Gathered requirements, modeled workflows, and created wireframes for user approval.\n- Documented functional requirements with 100% alignment to stakeholder expectations.\n- Supported testing, presented features, and refined based on user feedback.\n- Conducted UAT sessions with key clients, ensuring seamless implementation of ERP features.",
     },
     /*{
       platform: "Apple",
