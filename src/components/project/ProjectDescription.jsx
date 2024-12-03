@@ -32,7 +32,7 @@ const ProjectDescription = ({ project }) => {
         ))}
       </div>
 
-      <Technologies />
+      <Technologies project={project} />
     </div>
   );
 };

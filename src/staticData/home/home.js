@@ -5,15 +5,9 @@ import PhoneIcon from "@/src/components/icons/home/PhoneIcon";
 import SeoIcon from "@/src/components/icons/home/SeoIcon";
 import UiUxIcon from "@/src/components/icons/home/UiUxIcon";
 import WebDevIcon from "@/src/components/icons/home/WebDevIcon";
-import {
-  FaBlog,
-  FaBriefcase,
-  FaFolderOpen,
-  FaGraduationCap,
-  FaRegEnvelopeOpen,
-} from "react-icons/fa";
-import { GrTasks } from "react-icons/gr";
-import { BiCheckDouble, BiCommentCheck } from "react-icons/bi";
+import {FaBriefcase, FaFolderOpen, FaGraduationCap, FaRegEnvelopeOpen,} from "react-icons/fa";
+import {GrTasks} from "react-icons/gr";
+import {BiCheckDouble} from "react-icons/bi";
 
 import figmaImage from "@/public/assets/img/skill/figma.svg";
 import criticalThinkingImage from "@/public/assets/img/skill/criticalthinking.svg";
@@ -24,12 +18,6 @@ import problemSolvingImage from "@/public/assets/img/skill/problemsolving.svg";
 import requirementElicitationImage from "@/public/assets/img/skill/requirementelicitation.svg";
 import projectTrackingImage from "@/public/assets/img/skill/projecttracking.svg";
 import srsdocImage from "@/public/assets/img/skill/srsdoc.svg";
-import dotnetcoreImage from "@/public/assets/img/skill/dotnetcore.svg";
-import sqlserverImage from "@/public/assets/img/skill/sqlserver.svg";
-import jiraImage from "@/public/assets/img/skill/jira.svg";
-import railsImage from "@/public/assets/img/skill/rails.svg";
-import clickupImage from "@/public/assets/img/skill/clickup.svg";
-import mongodbImage from "@/public/assets/img/skill/mongodb.svg";
 
 import partner1Image from "@/public/assets/img/partners/logo1.svg";
 import partner2Image from "@/public/assets/img/partners/logo2.svg";
@@ -59,17 +47,7 @@ import projectInner5Image from "@/public/assets/img/blog/article-inner5.png";
 import projectInner6Image from "@/public/assets/img/blog/article-inner6.png";
 import projectInner7Image from "@/public/assets/img/blog/article-inner7.png";
 import projectInner8Image from "@/public/assets/img/blog/article-inner8.png";
-
-import blog1Thumbnail from "@/public/assets/img/blog/article1.png";
-import blog1Image from "@/public/assets/img/blog/article1.png";
-import blog2Thumbnail from "@/public/assets/img/blog/article2.png";
-import blog2Image from "@/public/assets/img/blog/article2.png";
-import blog3Thumbnail from "@/public/assets/img/blog/article3.png";
-import blog3Image from "@/public/assets/img/blog/article3.png";
-
-import author1 from "@/public/assets/img/testimonial/author1.png";
-import author2 from "@/public/assets/img/testimonial/author2.png";
-import { IoHomeOutline } from "react-icons/io5";
+import {IoHomeOutline} from "react-icons/io5";
 
 export const introduce = {
   iconBox: {
@@ -217,7 +195,7 @@ export const userDetailsSidebar = {
     {
       id: 3,
       field: "Experience",
-      value: "3+ years",
+      value: "3 years",
     },
   ],
   /*skillsInfo: [
@@ -314,8 +292,8 @@ export const skills = {
     title: "SKILLS",
     heading: "My",
     coloredHeading: "Advantages",
-    description:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
+    // description:
+    //   "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute",
   },
   skillsData: [
     {
@@ -440,7 +418,7 @@ export const portfolio = {
     heading: "Featured ",
     coloredHeading: "Projects",
     description:
-      "These are two ERP projects I have participated in, each involving key modules such as order management, production, inventory, and quality control. For detailed information on the modules, technologies, teams, and my role in each project, click on the images below.",
+      "These are two ERP projects I have participated in, each involving key modules such as Sales Order, Manufacturing, Inventory, and Quality Control Management. For detailed information on the modules, technologies, teams, and my role in each project, click on the images below.",
   },
   projectsData: [
     {
@@ -469,7 +447,7 @@ export const portfolio = {
         },
         {
           field: "DURATION",
-          value: "1.5 years",
+          value: "1.5+ years",
         },
       ],
       projectDescription: {
@@ -487,6 +465,28 @@ export const portfolio = {
         ],
         projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
       },
+      projectTechnology: [
+        {
+          title: ".Net",
+          image: "/assets/img/skill/dotnetcore.svg",
+          value: 100,
+        },
+        {
+          title: "DevExtreme",
+          image: "/assets/img/skill/devextreme.svg",
+          value: 100,
+        },
+        {
+          title: "Jira",
+          image: "/assets/img/skill/jira.svg",
+          value: 100,
+        },
+        {
+          title: "SQL Server",
+          image: "/assets/img/skill/sqlserver.svg",
+          value: 100,
+        },
+      ]
     },
     {
       id: 2,
@@ -555,7 +555,7 @@ export const portfolio = {
         },
         {
           field: "SERVICES",
-          value: "Textile",
+          value: "Manufacturing, export",
         },
         {
           field: "DURATION",
@@ -569,11 +569,34 @@ export const portfolio = {
         descriptionLists: [
           "QC Management: Supports the Quality Inspection Department with mobile and web platforms. The mobile app enables detailed product inspections, while the web app offers tools for managers to view statistics, generate reports, and monitor employee performance.",
           "Sales Management: Serves the Market Planning Department, allowing efficient order and client management. It includes a dashboard displaying revenue indexes and production progress to aid decision-making.",
-          "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 5 Developers, 2 testers, 2 UX-UI Designers, and 1 Product Owner).",
+          "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 4 Developers, 2 testers, 2 UX-UI Designers, 1 Technical Leader and 1 Product Owner).",
           "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB)",
         ],
         projectImage: [projectInner5Image?.src, projectInner6Image?.src, projectInner7Image?.src, projectInner8Image?.src,],
       },
+      projectTechnology: [
+        {
+          title: "Rails",
+          image: "/assets/img/skill/rails.svg",
+          value: 100,
+        },
+        {
+          title: "Figma",
+          image: "/assets/img/skill/figma.svg",
+          value: 100,
+        },
+        {
+          title: "ClickUp",
+          image: "/assets/img/skill/clickup.svg",
+          value: 100,
+        },
+        {
+          title: "MongoDB",
+          image: "/assets/img/skill/mongodb.svg",
+          value: 100,
+        },
+      ]
+
     },
     {
       id: 4,

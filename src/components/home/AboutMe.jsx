@@ -18,12 +18,12 @@ const AboutMe = () => {
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
             About <span className="font-semibold text-theme">Me</span>
           </h2>
-          <p className="max-w-2xl mt-4 md:mt-6 subtitle">
+          <p className="text-justify mt-4 md:mt-6 subtitle">
             Hi, my name is{" Thang. "}
             {/*<span className="text-black dark:text-white">*/}
             {/*  {userDetailsSidebar?.userName}*/}
             {/*</span>{" "}*/}
-            I am a Middle Business Analyst with 3 years of experience specializing in ERP systems. My expertise lies in analyzing business needs, designing technology-driven solutions, and collaborating with cross-functional teams to optimize processes and improve operational efficiency. I am dedicated to continuous learning and thrive in fostering collaborative, professional environments that deliver measurable business impact.            {/*<span className="text-black dark:text-white"> WordPress</span> sites
+            I am a Business Analyst with nearly 3 years of experience specializing in ERP systems. My expertise lies in analyzing business needs, designing technology-driven solutions, and collaborating with cross-functional teams to optimize processes and improve operational efficiency. I am dedicated to continuous learning and thrive in fostering collaborative, professional environments that deliver measurable business impact.            {/*<span className="text-black dark:text-white"> WordPress</span> sites
             go beyond with exclusive designer.*/}
           </p>
         </div>

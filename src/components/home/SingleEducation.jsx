@@ -1,7 +1,7 @@
 const SingleEducation = ({ institution, duration, degree, description }) => {
   return (
     <li className="p-5 border rounded-xl md:flex max-md:space-y-2 border-platinum dark:border-metalBlack md:border-0 md:p-0 md:rounded-none">
-      <div className="flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
+      <div className=" flex items-center justify-between mb-5 md:w-64 md:block md:mb-0">
         <h6 className="text-sm font-medium text-black dark:text-white text-opacity-60 md:text-base md:text-opacity-100">
           {institution}
         </h6>

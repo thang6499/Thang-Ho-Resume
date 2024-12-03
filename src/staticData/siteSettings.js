@@ -99,7 +99,7 @@ export const siteSettings = {
       name: "Linkedin",
       tooltip: "Share with Linkedin",
       Icon: <FaLinkedin />,
-      url: "linkedin.com/in/thang99",
+      url: "https://linkedin.com/in/thang99/",
     },
     // {
     //   id: 3,
