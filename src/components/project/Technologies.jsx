@@ -6,8 +6,9 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 
-const Technologies = () => {
-  const [change, setChange] = useState(false);
+
+const Technologies = ({ project }) =>{
+const [change, setChange] = useState(false);
   const [counterStarted, setCounterStarted] = useState(false);
 
   useEffect(() => {
@@ -21,7 +22,7 @@ const Technologies = () => {
         Technologies
       </h3>
       <div className="progressbar-wrap space-y-7">
-        {projectTechnologies?.map((item, i) => (
+        {project?.projectTechnology?.map((item, i) => (
           <div
             key={i}
             className="flex flex-wrap items-center gap-5 progressbar"
