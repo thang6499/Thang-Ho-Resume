@@ -151,7 +151,7 @@ const SidebarProfile = () => {
               className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
             >
               DOWNLOAD CV
-              <span className="animate-bounce">n
+              <span className="animate-bounce">
                 <IoCloudDownloadOutline size={18} />
               </span>
             </Link>
