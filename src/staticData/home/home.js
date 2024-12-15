@@ -153,26 +153,32 @@ export const userDetails = [
   {
     field: "Phone",
     value: "+(84) 775 550 467",
+    action: "tel", // Specify action for click
   },
   {
     field: "Skype",
     value: "live:.cid.a02844ab9ae6ef48",
+    action: "copy",
   },
   {
     field: "Language",
     value: "English, Vietnamese",
+    action: null, // No click action
   },
   {
     field: "Email",
     value: "hthangdng@gmail.com",
+    action: "mailto", // Opens email client
   },
   {
     field: "GitHub",
-    value: "github.com/HoThang6499",
+    value: "https://github.com/thang6499",
+    action: "link", // Opens a link
   },
   {
     field: "LinkedIn",
-    value: "linkedin.com/in/thang99",
+    value: "https://linkedin.com/in/thang99",
+    action: "link",
   },
 ];
 
