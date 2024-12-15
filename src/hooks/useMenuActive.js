@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import {useEffect, useState} from "react";
 
 const useMenuActive = (ref, selector) => {
   const [activeMenuItem, setActiveMenuItem] = useState("#home");
@@ -18,7 +18,7 @@ const useMenuActive = (ref, selector) => {
       let activeMenu = null;
       menuItems.forEach((menuItem) => {
         const targetSection = document.querySelector(
-          menuItem.getAttribute("data-section")
+            menuItem.getAttribute("data-section")
         );
 
         if (!targetSection) return;
@@ -28,14 +28,14 @@ const useMenuActive = (ref, selector) => {
 
         // Adjust the conditions to consider both start and end points of the section
         if (
-          scrollPosition >= targetSectionOffset &&
-          scrollPosition < targetSectionOffset + targetSectionHeight
+            scrollPosition >= targetSectionOffset &&
+            scrollPosition < targetSectionOffset + targetSectionHeight
         ) {
           activeMenu = menuItem.getAttribute("data-section");
         } else if (
-          // Add a condition for the bottom of the section
-          scrollPosition >= targetSectionOffset - window.innerHeight / 2 &&
-          scrollPosition < targetSectionOffset
+            // Add a condition for the bottom of the section
+            scrollPosition >= targetSectionOffset - window.innerHeight / 2 &&
+            scrollPosition < targetSectionOffset
         ) {
           activeMenu = menuItem.getAttribute("data-section");
         }
@@ -49,7 +49,7 @@ const useMenuActive = (ref, selector) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [ref, selector]); // Add ref and selector as dependencies
 
   return activeMenuItem;
 };

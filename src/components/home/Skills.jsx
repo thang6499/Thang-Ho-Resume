@@ -7,6 +7,7 @@ import VisibilitySensor from "react-visibility-sensor";
 import {CircularProgressbarWithChildren} from "react-circular-progressbar";
 import SectionHeading from "../shared/SectionHeading";
 import {BsArrowLeft, BsArrowRight} from "react-icons/bs";
+import Image from "next/image";
 
 const Skills = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -79,7 +80,7 @@ const Skills = () => {
                 {skills?.skillsData?.map((service, i) => (
                   <SwiperSlide key={i}>
                     <div className="space-y-5 text-center swiper-slide">
-                      <img src={service?.image} alt={service?.name} />
+                      <Image src={service?.image} alt={service?.name}  width={58} height={58}/>
                       <div className="!w-32 !h-32 md:!w-40 md:!h-40 mx-auto">
                         <VisibilitySensor
                             onChange={(visible) => {
