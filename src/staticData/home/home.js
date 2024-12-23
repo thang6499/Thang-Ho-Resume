@@ -457,10 +457,11 @@ export const portfolio = {
         descriptionLists: [
           "Sample Development: Design production, material calculation, production tracking, and cost estimation.",
           "Order Management: Full order lifecycle tracking from Order Placement → Delivery.",
-          "Production Management: Planning, material balancing, cost calculation, and delivery management.",
-          "Warehouse Management: Inventory tracking and integration with other modules.",
+          "Production Management: Planning, material balancing, cost calculation, and delivery management using Material Resource Planning (MRP) methodology.",
+          "Warehouse Management: Inventory tracking and integration with other modules using First In, First Out (FIFO) methodology.",
           "Comprehensive Reporting: End-to-end data insights.",
           "Team: Collaborated in a cross-functional team of 12 (1 Business Analyst, 7 Developers, 2 testers, 1 Technical Leader, and 1 Product Owner).",
+          "Main tasks: Led all BA tasks, including requirements elicitation, documentation, and coordination with teams. Managed backlogs, testing, and post-launch feedback to optimize features.)",
           "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
         ],
         projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
@@ -469,12 +470,12 @@ export const portfolio = {
         {
           title: ".Net",
           image: "/assets/img/skill/dotnetcore.svg",
-          value: 100,
+          value: 95,
         },
         {
           title: "DevExtreme",
           image: "/assets/img/skill/devextreme.svg",
-          value: 100,
+          value: 95,
         },
         {
           title: "Jira",
@@ -567,9 +568,10 @@ export const portfolio = {
         description:
         "Enhanced an ERP system by developing Quality Management and Sales Management modules. Gathered requirements, modeled workflows, created wireframes for user approval, wrote the SRS document, supported testers, and prepared the user manual directly at the factory:",
         descriptionLists: [
-          "QC Management: Supports the Quality Inspection Department with mobile and web platforms. The mobile app enables detailed product inspections, while the web app offers tools for managers to view statistics, generate reports, and monitor employee performance.",
+          "QC Management: Supported the Quality Inspection Department with mobile and web platforms. The mobile app enabled detailed product inspections, while the web app provided tools for managers to view statistics, generate reports, and monitor employee performance using Total Quality Management (TQM) methodology.",
           "Sales Management: Serves the Market Planning Department, allowing efficient order and client management. It includes a dashboard displaying revenue indexes and production progress to aid decision-making.",
           "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 4 Developers, 2 testers, 2 UX-UI Designers, 1 Technical Leader and 1 Product Owner).",
+          " Main tasks: Led most BA tasks, including requirements elicitation, documentation, and coordination with teams. Implemented the solution directly at the factory for end-users.",
           "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB)",
         ],
         projectImage: [projectInner5Image?.src, projectInner6Image?.src, projectInner7Image?.src, projectInner8Image?.src,],
@@ -578,7 +580,7 @@ export const portfolio = {
         {
           title: "Rails",
           image: "/assets/img/skill/rails.svg",
-          value: 100,
+          value: 95,
         },
         {
           title: "Figma",

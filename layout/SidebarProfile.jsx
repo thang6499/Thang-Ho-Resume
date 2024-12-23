@@ -145,7 +145,7 @@ const SidebarProfile = () => {
           {/*</div>*/}
           <div className="mt-0 py-4">
             <Link
-              href="https://drive.google.com/file/d/1GCOmuH11ATud_q4dni1Dmw_stGvPKpTi/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1s7oH0GQoRjE7VfQ0eCzhj48rUHWk8qz8/view?usp=sharing"
               download
               target="_blank"
               className="text-center text-sm border border-theme bg-theme flex items-center justify-center gap-2 text-white rounded-4xl py-3.5 transition duration-300 text-[15px] font-semibold hover:bg-themeHover hover:border-themeHover"
