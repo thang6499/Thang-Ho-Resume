@@ -362,7 +362,7 @@ export const resume = {
         "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.\n- Collected and analyzed business requirements, modeled workflows, and mapped business processes into the ERP system. \n- Defined features, created UI designs, prepared SRS documentation, and managed project tasks using Jira.\n- Worked closely with QA to support testing and ensure system functionality met business needs.\n- Delivered training to over 20 end-users. Reducing processing time by 20%, resulting in improved operational efficiency.",
     },
     {
-      platform: "Retex",
+      platform: "Rete",
       duration: "March,2022 - May,2023",
       position: "Business Analyst",
       description:
