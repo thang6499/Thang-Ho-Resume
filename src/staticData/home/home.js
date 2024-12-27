@@ -365,7 +365,7 @@ export const resume = {
       duration: "June, 2023 - Current",
       position: "Business Analyst",
       description:
-        "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.\n- Collected and analyzed business requirements, modeled workflows, and mapped business processes into the ERP system. \n- Defined features, created UI designs, prepared SRS documentation, and managed project tasks using Jira.\n- Worked closely with QA to support testing and ensure system functionality met business needs.\n- Delivered training to over 20 end-users. Reducing processing time by 20%, resulting in improved operational efficiency.",
+        "- Designed and implemented a full-scale ERP system for a garment company, integrating modules for product development, sales order, production, inventory management, and reporting.\n- Collected and analyzed business requirements, modeled workflows, and mapped business processes into the ERP system. \n- Defined features, created UI designs, prepared SRS documentation, and managed project tasks using Jira.\n- Worked closely with QA to support testing and ensure system functionality met business needs.\n- Prepared documentation for data migration from legacy systems to the new ERP system and resolved issues during UAT and ensured system readiness before Go-Live.\n- Delivered training to over 20 end-users. Reducing processing time by 20%, resulting in improved operational efficiency.",
     },
     {
       platform: "Retex",
@@ -463,11 +463,11 @@ export const portfolio = {
         descriptionLists: [
           "Sample Development: Design production, material calculation, production tracking, and cost estimation.",
           "Order Management: Full order lifecycle tracking from Order Placement → Delivery.",
-          "Production Management: Planning, material balancing, cost calculation, and delivery management.",
-          "Warehouse Management: Inventory tracking and integration with other modules.",
+          "Production Management: Planning, material balancing, cost calculation, and delivery management. Utilize Material Resource Planning (MRP) to streamline the manufacturing process, ensuring material availability and production efficiency.",
+          "Warehouse Management: Improve material tracking accuracy and minimize waste by implementing the First In, First Out (FIFO) methodology, ensuring older inventory is utilized first to maintain quality and optimize storage efficiency.",
           "Comprehensive Reporting: End-to-end data insights.",
           "Team: Collaborated in a cross-functional team of 12 (1 Business Analyst, 7 Developers, 2 testers, 1 Technical Leader, and 1 Product Owner).",
-          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
+          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server).",
         ],
         projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
       },
@@ -534,7 +534,7 @@ export const portfolio = {
           "Warehouse Management: Inventory tracking and integration with other modules.",
           "Comprehensive Reporting: End-to-end data insights.",
           "Team: Collaborated in a cross-functional team of 12 (1 Business Analyst, 7 Developers, 2 testers, 1 Technical Leader, and 1 Product Owner).",
-          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server)",
+          "Technologies: MVC (.Net Core), task management (Jira), user interface (DevExtreme), database development (Microsoft SQL Server).",
         ],
         projectImage: [projectInner1Image?.src, projectInner2Image?.src,projectInner3Image?.src, projectInner4Image?.src],
       },
@@ -573,10 +573,10 @@ export const portfolio = {
         description:
         "Enhanced an ERP system by developing Quality Management and Sales Management modules. Gathered requirements, modeled workflows, created wireframes for user approval, wrote the SRS document, supported testers, and prepared the user manual directly at the factory:",
         descriptionLists: [
-          "QC Management: Supports the Quality Inspection Department with mobile and web platforms. The mobile app enables detailed product inspections, while the web app offers tools for managers to view statistics, generate reports, and monitor employee performance.",
+          "QC Management: Facilitated the Quality Inspection Department's transition to an ERP system using TQM methodology, improving efficiency by 50%. Developed mobile and web platforms: the mobile app enabled real-time product inspections, while the web app allowed managers to view statistics, generate reports, and monitor performance. Replaced manual tally counters and paper-based reports with automated, software-driven inspections and reporting for greater accuracy and streamlined operations.",
           "Sales Management: Serves the Market Planning Department, allowing efficient order and client management. It includes a dashboard displaying revenue indexes and production progress to aid decision-making.",
           "Team: Collaborated in a cross-functional team of 11 (1 Business Analyst, 4 Developers, 2 testers, 2 UX-UI Designers, 1 Technical Leader and 1 Product Owner).",
-          "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB)",
+          "Technologies: MVC (Rails), task management (Clickup), user interface (Figma), database development (MongoDB).",
         ],
         projectImage: [projectInner5Image?.src, projectInner6Image?.src, projectInner7Image?.src, projectInner8Image?.src,],
       },
