@@ -23,7 +23,12 @@ const AboutMe = () => {
             {/*<span className="text-black dark:text-white">*/}
             {/*  {userDetailsSidebar?.userName}*/}
             {/*</span>{" "}*/}
-            I am a Business Analyst with nearly 3 years of experience specializing in ERP systems. My expertise lies in analyzing business needs, designing technology-driven solutions, and collaborating with cross-functional teams to optimize processes and improve operational efficiency. I am dedicated to continuous learning and thrive in fostering collaborative, professional environments that deliver measurable business impact.            {/*<span className="text-black dark:text-white"> WordPress</span> sites
+            With nearly 3 years of experience in ERP solutions for Manufacturing and Retail, I have independently
+            managed full project lifecycles as the sole Business Analyst. My responsibilities included eliciting
+            requirements, aligning solutions with stakeholder expectations, authoring SRS documentation, designing
+            UI/UX wireframes, and leading UAT to ensure quality deliverables. Additionally, I managed backlogs,
+            coordinated cross-functional teams, and ensured the timely delivery of sprints. Committed to continuous
+            learning and collaboration, I focus on delivering impactful results that drive business success.            {/*<span className="text-black dark:text-white"> WordPress</span> sites
             go beyond with exclusive designer.*/}
           </p>
         </div>
